@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<model name="units" xmlns="http://www.cellml.org/cellml/1.1#" xmlns:cellml="http://www.cellml.org/cellml/1.1#">
+    <units name="concentrationUnit">
+        <unit prefix="femto" units="mole"/>
+    </units>
+    <units name="speciesConstantUnit">
+        <unit exponent="-1" units="concentrationUnit"/>
+    </units>
+    <units name="fluxUnit">
+        <unit units="concentrationUnit"/>
+        <unit exponent="-1" units="second"/>
+    </units>
+</model>

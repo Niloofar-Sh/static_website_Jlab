@@ -1,0 +1,10 @@
+{
+    "J_Gl_SGLT_SGLT1": 1.21501e-10, 
+    "J_Na_SGLT_SGLT1": 2.43002e-10, 
+    "Na_i_SGLT1": 0.047, 
+    "Na_m_SGLT1": 0.105, 
+    "glucose_i_SGLT1": 0.003, 
+    "glucose_m_SGLT1": 0.05, 
+    "n_SGLT1": 2, 
+    "v_mc_SGLT1": -0.046
+}

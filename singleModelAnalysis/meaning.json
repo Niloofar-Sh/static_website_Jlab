@@ -1,0 +1,41 @@
+{
+    "J_Gl_SGLT_SGLT1": [
+        "Concentration of chemical", 
+        "glucose", 
+        "Chemical molar flow rate"
+    ], 
+    "J_Na_SGLT_SGLT1": [
+        "sodium(1+)", 
+        "Concentration of chemical", 
+        "Chemical molar flow rate"
+    ], 
+    "Na_i_SGLT1": [
+        "sodium(1+)", 
+        "Concentration of chemical", 
+        "Cytosol of epithelial cell"
+    ], 
+    "Na_m_SGLT1": [
+        "sodium(1+)", 
+        "Concentration of chemical", 
+        "Extracellular space"
+    ], 
+    "glucose_i_SGLT1": [
+        "Concentration of chemical", 
+        "glucose", 
+        "Cytosol of epithelial cell"
+    ], 
+    "glucose_m_SGLT1": [
+        "Concentration of chemical", 
+        "glucose", 
+        "Extracellular space"
+    ], 
+    "n_SGLT1": [
+        "sodium(1+)", 
+        "Concentration of chemical", 
+        "Molecule"
+    ], 
+    "v_mc_SGLT1": [
+        "sodium(1+)", 
+        "Nernst reversal potential"
+    ]
+}

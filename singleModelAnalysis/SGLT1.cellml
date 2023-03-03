@@ -1441,9 +1441,6 @@
             </semsim:isComputationalComponentFor>
             <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" rdf:resource="https://identifiers.org/opb/OPB_00592" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
         </rdf:Description>
-        <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#SGLT1.v_mc">
-                <semsim:hasPhysicalDefinition xmlns:semsim="http://www.bhi.washington.edu/SemSim#" rdf:resource="https://identifiers.org/opb/OPB_01581" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-                <semsim:hasPhysicalDefinition xmlns:semsim="http://www.bhi.washington.edu/SemSim#" rdf:resource="https://identifiers.org/chebi/CHEBI:29101" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>                
-        </rdf:Description>
+
     </rdf:RDF>
 </model>

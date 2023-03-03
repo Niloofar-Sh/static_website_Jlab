@@ -211,7 +211,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="#GLUT2.J_GLUT">
           <semsim:hasPhysicalDefinition rdf:resource="https://identifiers.org/opb/OPB_00592" />           
-          <semsim:hasPhysicalDefinition rdf:resource="https://identifiers.org/chebi/CHEBI:29101" />
+          <semsim:hasPhysicalDefinition rdf:resource="https://identifiers.org/chebi/CHEBI:17234" />
           <semsim:hasPhysicalDefinition rdf:resource="https://identifiers.org/opb/OPB_00340" />
     </rdf:Description>
   </rdf:RDF>

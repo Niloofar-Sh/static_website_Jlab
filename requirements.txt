@@ -1,3 +1,4 @@
+voila==0.4.0
 xlsxwriter==3.0.8
 wcwidth==0.2.5
 ipywidgets==8.0.4

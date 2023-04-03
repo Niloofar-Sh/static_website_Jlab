@@ -1,0 +1,38 @@
+{
+    "Glut1": {
+        "Ai": [
+            "OPB_00340:  Concentration of chemical",
+            "CHEBI_81055:  Calcium sulfide",
+            "fma226044:  Cytosol of muscle cell"
+        ],
+        "Ao": [
+            "OPB_00340:  Concentration of chemical",
+            "CHEBI_81055:  Calcium sulfide",
+            "fma70022:  Extracellular space"
+        ]
+    },
+    "Glut2": {
+        "Ai": [
+            "OPB_00340:  Concentration of chemical",
+            "CHEBI_81056:  Glucose",
+            "fma226044:  Cytosol of muscle cell"
+        ],
+        "Ao": [
+            "OPB_00340:  Concentration of chemical",
+            "CHEBI_81055:  Calcium sulfide",
+            "fma70022:  Extracellular space"
+        ]
+    },
+    "Glut3": {
+        "Ai": [
+            "OPB_00340:  Concentration of chemical",
+            "CHEBI_81056:  Glucose",
+            "fma226044:  Cytosol of muscle cell"
+        ],
+        "Ao": [
+            "OPB_00340:  Concentration of chemical",
+            "CHEBI_81055:  Calcium sulfide",
+            "fma70022:  Extracellular space"
+        ]
+    }
+}

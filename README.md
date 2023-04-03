@@ -16,4 +16,4 @@ Wait for the packages to be installed. This may take some time depending on the 
 Once the installation is complete, you should be able to use the installed packages in the Jupyter Notebook.
 
 
-https://mybinder.org/v2/gh/Niloofar-Sh/static_website_Jlab/HEAD
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Niloofar-Sh/static_website_Jlab/HEAD)

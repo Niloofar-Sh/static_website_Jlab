@@ -2,4 +2,4 @@
 
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Niloofar-Sh/static_website_Jlab/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Niloofar-Sh/static_website_Jlab/HEAD?labpath=studentInterface%2FstudentInterface2.ipynb)

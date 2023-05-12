@@ -1,20 +1,20 @@
 {
     "Transporter 1": {
-        "E": null,
+        "E": "2.1",
         "q_Ai": "0.3",
         "q_Ao": "100",
-        "v": null
+        "v": "4.37381"
     },
     "Transporter 2": {
-        "E": null,
+        "E": "1.1",
         "q_Ai": "2",
         "q_Ao": "150",
-        "v": null
+        "v": "5.15082"
     },
     "Transporter 3": {
-        "E": null,
+        "E": "26.1",
         "q_Ai": "7",
         "q_Ao": "40",
-        "v": null
+        "v": "4.96874"
     }
 }

@@ -1,8 +1,19 @@
 {
-    "type 3": {
-        "Ai": [],
-        "Ao": [],
-        "Bi": [],
-        "Bo": []
+    "Family 1": {
+        "Ai": [
+            "isVersionOf$OPB_00425",
+            "entity$CHEBI:15378",
+            "hasSinkParticipant$Sink",
+            "isPartOf$fma226054"
+        ],
+        "Ao": [
+            "isVersionOf$OPB_00425",
+            "entity$CHEBI:15378",
+            "isPartOf$fma70022",
+            "hasSourceParticipant$Source"
+        ],
+        "V_SS": [
+            "isVersionOf$OPB_00592"
+        ]
     }
 }

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/2.0#" name="ssFlux" id="b4da55">
+  <units name="fmol_per_L_per_sec" id="b4da56">
+    <unit units="fmol_per_L" id="b4da6a"/>
+    <unit exponent="-1" units="second" id="b4da6b"/>
+  </units>
+  <units name="C_per_mol" id="b4da57">
+    <unit units="coulomb" id="b4da6c"/>
+    <unit exponent="-1" units="mole" id="b4da6d"/>
+  </units>
+  <units name="fC" id="b4da58">
+    <unit prefix="femto" units="coulomb" id="b4da6e"/>
+  </units>
+  <units name="per_sec" id="b4da59">
+    <unit exponent="-1" units="second" id="b4da6f"/>
+  </units>
+  <units name="uM_per_sec" id="b4da5a">
+    <unit exponent="-1" units="second" id="b4da70"/>
+    <unit units="uM" id="b4da71"/>
+  </units>
+  <units name="J_per_K_per_mol" id="b4da5b">
+    <unit units="joule" id="b4da72"/>
+    <unit exponent="-1" units="kelvin" id="b4da73"/>
+    <unit exponent="-1" units="mole" id="b4da74"/>
+  </units>
+  <units name="fmol_per_sec" id="b4da5c">
+    <unit exponent="-1" units="second" id="b4da75"/>
+    <unit units="fmol" id="b4da76"/>
+  </units>
+  <units name="fmol" id="b4da5d">
+    <unit prefix="femto" units="mole" id="b4da77"/>
+  </units>
+  <units name="J_per_mol" id="b4da5e">
+    <unit exponent="-1" units="mole" id="b4da78"/>
+    <unit units="joule" id="b4da79"/>
+  </units>
+  <units name="fS" id="b4da5f">
+    <unit prefix="femto" units="siemens" id="b4da7a"/>
+  </units>
+  <units name="per_sec_per_fmol" id="b4da60">
+    <unit exponent="-1" units="second" id="b4da7b"/>
+    <unit exponent="-1" units="fmol" id="b4da7c"/>
+  </units>
+  <units name="fmol_per_L" id="b4da61">
+    <unit exponent="-1" units="litre" id="b4da7d"/>
+    <unit prefix="femto" units="mole" id="b4da7e"/>
+  </units>
+  <units name="fF" id="b4da62">
+    <unit prefix="femto" units="farad" id="b4da7f"/>
+  </units>
+  <units name="uM" id="b4da63">
+    <unit prefix="micro" units="mole" id="b4da80"/>
+    <unit exponent="-1" units="litre" id="b4da81"/>
+  </units>
+  <units name="mM_per_sec" id="b4da64">
+    <unit exponent="-1" units="second" id="b4da82"/>
+    <unit units="mM" id="b4da83"/>
+  </units>
+  <units name="per_fmol" id="b4da65">
+    <unit exponent="-1" units="fmol" id="b4da84"/>
+  </units>
+  <units name="per_fmol2" id="b4da66">
+    <unit exponent="-2" units="fmol" id="b4da85"/>
+  </units>
+  <units name="pL" id="b4da67">
+    <unit prefix="pico" units="litre" id="b4da86"/>
+  </units>
+  <units name="fA" id="b4da68">
+    <unit prefix="femto" units="ampere" id="b4da87"/>
+  </units>
+  <units name="mM" id="b4da69">
+    <unit prefix="milli" units="mole" id="b4da88"/>
+    <unit exponent="-1" units="litre" id="b4da89"/>
+  </units>
+  <component name="main" id="b4da8a">
+    <variable name="R" units="J_per_K_per_mol" initial_value="8.31" id="b4da8b"/>
+    <variable name="T" units="kelvin" initial_value="279.45" id="b4da8c"/>
+    <variable name="F" units="C_per_mol" initial_value="96485" id="b4da8d"/>
+    <variable name="K_Ai" units="per_fmol" initial_value="8" id="b4da8e"/>
+    <variable name="q_Ai" units="fmol" initial_value="7" id="b4da8f"/>
+    <variable name="K_Ao" units="per_fmol" initial_value="50" id="b4da90"/>
+    <variable name="q_Ao" units="fmol" initial_value="40" id="b4da91"/>
+    <variable name="P1" units="per_sec_per_fmol" initial_value="12" id="b4da92"/>
+    <variable name="P2" units="per_sec_per_fmol" initial_value="47" id="b4da93"/>
+    <variable name="P3" units="dimensionless" initial_value="23" id="b4da94"/>
+    <variable name="P4" units="per_fmol" initial_value="0.21" id="b4da95"/>
+    <variable name="P5" units="per_fmol" initial_value="87" id="b4da96"/>
+    <variable name="P6" units="per_fmol2" initial_value="0.15" id="b4da97"/>
+    <variable name="E" units="fmol" initial_value="0.00087" id="b4da98"/>
+    <variable name="v" units="fmol_per_sec" id="b4da99"/>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <eq/>
+        <ci>v</ci>
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <ci>E</ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci>P1</ci>
+                <ci>q_Ao</ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci>P2</ci>
+                <ci>q_Ai</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <plus/>
+            <ci>P3</ci>
+            <apply>
+              <times/>
+              <ci>P4</ci>
+              <ci>q_Ao</ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci>P5</ci>
+              <ci>q_Ai</ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci>P6</ci>
+              <ci>q_Ai</ci>
+              <ci>q_Ao</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </math>
+  </component>
+</model>

@@ -43,3 +43,4 @@ pygments==2.14.0
 matplotlib==3.7.0
 defusedxml==0.7.1
 libcellml==0.4.0
+python-libsbml==5.20.0

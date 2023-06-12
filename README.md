@@ -9,10 +9,10 @@ Make sure you have Python installed on your system.
 
 3. Run the following command to install the dependencies:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 This command will install all the dependencies listed in the requirements.txt file.
 
 4. Run the following command to start the application:
 
-python FAIRDO.py
+`python FAIRDO.py`

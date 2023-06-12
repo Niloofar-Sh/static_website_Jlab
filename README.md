@@ -1,18 +1,46 @@
 # static_website_Jlab
 
+
+
+1. Prerequisites:
+
 👉 **Make sure you have Python installed on your system** 👈
+You can download it from the official Python website (https://www.python.org/downloads/).
+Install Jupyter Notebook by running the following command in your command-line interface:
+
+`pip install jupyter`
+
+2. Clone the repository:
+
+Open a terminal or command-line interface on your computer.
+Change to the directory where you want to clone the repository.
+Run the following command to clone the repository:
+
+`git clone https://github.com/Niloofar-Sh/static_website_Jlab.git`
 
 
-1. Open a command prompt or terminal.
+3. Install required dependencies:
 
-2. Navigate to the directory where the requirements.txt and Python script file is located (studentInterface).
+Change to the cloned repository's directory:
+`cd your-repository`
 
-3. Run the following command to install the dependencies:
+Install the dependencies specified in the requirements.txt file:
 
 `pip install -r requirements.txt`
 
-This command will install all the dependencies listed in the requirements.txt file.
+4. Run the Jupyter Notebook:
 
-4. Run the following command to start the application:
+Start Jupyter Notebook by running the following command:
 
-`python FAIRDO.py`
+`jupyter notebook`
+
+This will open a new tab or window in your default web browser, showing the Jupyter Notebook interface.
+Navigate to the cloned repository's directory and open the main Jupyter Notebook file (./studentInterface/FAIRDO.ipynb)
+
+5. Running the code:
+
+Once the main Jupyter Notebook is open, you may see cells containing code.
+To execute the code cells, click on the "Voila" button in the toolbar.
+![image](https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/c6e914d2-310f-41ee-bd63-d9700441f7ea)
+
+Follow the instructions within the notebook to interact with the generated interactive environment.

@@ -13,16 +13,16 @@ Install Jupyter Notebook by running the following command in your command-line i
 2. Clone the repository:
 
 Open a terminal or command-line interface on your computer.
-Change to the directory where you want to clone the repository.
+Change to the directory where you want to clone the repository:
+
+`cd C:\Path\to\desired\directory`
+
 Run the following command to clone the repository:
 
 `git clone https://github.com/Niloofar-Sh/static_website_Jlab.git`
 
 
 3. Install required dependencies:
-
-Change to the cloned repository's directory:
-`cd your-repository`
 
 Install the dependencies specified in the requirements.txt file:
 

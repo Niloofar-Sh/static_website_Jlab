@@ -1,6 +1,6 @@
 # static_website_Jlab
 
-:point_up: :point_up: :point_up: Make sure you have Python installed on your system.
+👉 **Make sure you have Python installed on your system** 👈
 
 
 1. Open a command prompt or terminal.

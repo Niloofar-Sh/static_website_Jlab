@@ -1,8 +1,18 @@
 # static_website_Jlab
 
+Make sure you have Python installed on your system.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Niloofar-Sh/static_website_Jlab/HEAD?urlpath=https%3A%2F%2Fgithub.com%2FNiloofar-Sh%2Fstatic_website_Jlab%2Fblob%2Fmaster%2FstudentInterface%2FstudentInterface6.ipynb)
-Alternatively,
 
-1. pip install -r requirements.txt
-2. xxx
+1. Open a command prompt or terminal.
+
+2. Navigate to the directory where the requirements.txt and Python script file is located.
+
+3. Run the following command to install the dependencies:
+
+pip install -r requirements.txt
+
+This command will install all the dependencies listed in the requirements.txt file.
+
+4. Run the following command to start the application:
+
+python FAIRDO.py

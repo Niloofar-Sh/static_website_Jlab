@@ -1,12 +1,12 @@
 # static_website_Jlab
 
-Go to (https://nbviewer.org/).
+1. Go to (https://nbviewer.org/).
 
-Copy the link: https://github.com/Niloofar-Sh/static_website_Jlab/blob/master/studentInterface/FAIRDO.ipynb in the search bar and click GO!
+2. Copy the link: https://github.com/Niloofar-Sh/static_website_Jlab/blob/master/studentInterface/FAIRDO.ipynb in the search bar and click GO!
 
-When the Jupyter Notebook is loaded, click on the Binder icon:
+3. When the Jupyter Notebook is loaded, click on the Binder icon:
 
-![Untitled](https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/f407b983-c8af-4f77-8c12-5795415cd928)
+![Untitled](https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/f407b983-c8af-4f77-8c12-5795415cd928 | width=50)
 
 
 Once the main Jupyter Notebook is open, you may see cells containing code.

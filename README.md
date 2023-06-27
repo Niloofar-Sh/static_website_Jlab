@@ -6,7 +6,7 @@
 
 3. When the Jupyter Notebook is loaded, click on the Binder icon:
 
-![](https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/f407b983-c8af-4f77-8c12-5795415cd928 | width=50)
+![](https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/f407b983-c8af-4f77-8c12-5795415cd928 =250x250)
 
 
 Once the main Jupyter Notebook is open, you may see cells containing code.

@@ -6,7 +6,7 @@
 
 3. When the Jupyter Notebook is loaded, click on the Binder icon:
 
-<img src="[https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/5e63f854-2f77-47c4-9bc3-fb0429261efd](https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/3805eb53-422f-42e8-9336-4be426ccc3ad)" width="900" height="190">
+<img src="https://github.com/Niloofar-Sh/static_website_Jlab/assets/52058595/3805eb53-422f-42e8-9336-4be426ccc3ad" width="900" height="190">
 
 
 

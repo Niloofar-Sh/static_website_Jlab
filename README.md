@@ -2,7 +2,7 @@
 
 Go to (https://nbviewer.org/).
 
-Copy the link (https://github.com/Niloofar-Sh/static_website_Jlab/blob/master/studentInterface/FAIRDO.ipynb) in the search bar and click GO!
+Copy the link: https://github.com/Niloofar-Sh/static_website_Jlab/blob/master/studentInterface/FAIRDO.ipynb in the search bar and click GO!
 
 When the Jupyter Notebook is loaded, click on the Binder icon:
 
